@@ -3,11 +3,7 @@
   flex-direction: column;
   padding: 10px;
   padding-bottom: 20px;
-  /* background-color: Teal; */
-  /* background-color: rgb(86, 83, 83); */
   background-color: gray;
-  /* border-radius: 10px; */
-  /* border-radius: 5px; */
 }
 
 @media (min-width: 800px) {
@@ -35,7 +31,6 @@
   text-align: right;
   background-color: transparent;
   color: rgb(0, 0, 0);
-  /* color: white; */
   border: 0px;
   letter-spacing: 1.5px;
 }
@@ -50,7 +45,6 @@
 
 .input::placeholder,
 .value::placeholder {
-  /* color: white; */
   color: black;
 }
 
