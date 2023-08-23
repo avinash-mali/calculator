@@ -1,0 +1,61 @@
+.display {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  padding-bottom: 20px;
+  /* background-color: Teal; */
+  /* background-color: rgb(86, 83, 83); */
+  background-color: gray;
+  /* border-radius: 10px; */
+  /* border-radius: 5px; */
+}
+
+@media (min-width: 800px) {
+  .display {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-style: groove;
+    border-right-style: groove;
+    border-left-style: groove;
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-left-width: 10px;
+  }
+}
+
+.expression {
+  padding: 5px;
+  margin-bottom: 10px;
+  height: 50px;
+}
+
+.input,
+.value {
+  padding: 10px;
+  text-align: right;
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  /* color: white; */
+  border: 0px;
+  letter-spacing: 1.5px;
+}
+
+.input {
+  font-size: 35px;
+}
+
+.value {
+  font-size: 15px;
+}
+
+.input::placeholder,
+.value::placeholder {
+  /* color: white; */
+  color: black;
+}
+
+.input:focus-visible,
+.value:focus-visible {
+  outline-style: none;
+  outline-width: 0px;
+}
