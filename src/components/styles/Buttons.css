@@ -2,8 +2,8 @@
   display: grid;
   grid-template-columns: auto auto auto auto auto;
   background-color: rgb(52, 48, 48);
-  /* border-radius: 10px; */
-  /* background-color: white; */
+  
+
   border-color: white;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -36,7 +36,7 @@
   /* color: black; */
   color: white;
   background-color: lightyellow;
-  /* background-color: #fb813e; */
+  
 }
 .btn img{
   width: auto;
@@ -44,20 +44,20 @@
 }
 
 .clr {
-  /* color: #d66d75; */
+  
   color: red;
 }
 
 .exp {
   background-color: rgb(255, 204, 0) !important;
-  /* background-color: #fb813e !important; */
-  /* color: #000; */
+  
+  
   color: white;
   font-size: 1.6rem !important;
 }
 
 .exp:hover{
-  /* box-shadow: 5px 10px #888888; */
+  
   opacity: 0.7;
 }
 
@@ -79,7 +79,6 @@
 @media (min-width: 800px) {
   .btn:hover {
     background-color: rgb(217, 208, 208);
-    /* background-color: #6dd5ed; */
     color: white;
     transition: background-color 0.3s ease;
     border-radius: 50%;
